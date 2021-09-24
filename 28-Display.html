@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display & Visiblity</title>
+    <style>
+        .block {
+            display: block;
+            border: 3px solid #666;
+            width: 50%;
+            height: 20px;
+            margin-bottom: 2rem;
+        }
+
+        .inline {
+            display: inline;
+            border: 3px solid #666;
+            margin: 2rem 0;
+        }
+
+        .inline-block {
+            display: inline-block;
+            border: 3px solid #666;
+            width: 40%;
+            height: 50px;
+            margin: 2rem 0;
+        }
+
+        .display {
+            border: 3px solid #666;
+            height: 100px;
+            /* display: none; */
+        }
+
+        .visibility {
+            border: 3px solid #666;
+            height: 100px;
+            visibility: hidden;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="block">
+        New Line, Full Width, Custom Width & Height       
+    </div>
+
+    <div class="inline">
+        No New Line, No Full Width, No Custom Width & Height
+    </div>
+
+    <div class="inline-block">
+        No New Line, Custom Width & Height
+    </div>
+    
+    <div class="visibility">
+        Hidden, Take Space
+    </div>
+
+    <div class="display">
+        Hidden, Take No Space
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Selector</title>
+    <style media="screen">
+      /* Element Selector */
+      p { color: LightSalmon; }
+
+      /* Id Selector */
+      #id { color: LightPink; }
+
+      /* Class Selector */
+      .class { color : LightGreen; }
+
+      /* Multiple Selector */
+      h1, h2, h3 { color: LightGray; }
+
+      /* Child Selector */
+      .parent > .child { color: LightSkyBlue }
+
+      /* Attribute Selector */
+      input[type="text"] { color: LightCoral }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>Element Selector</p>
+    </div>
+
+    <hr>
+
+    <div>
+      <p class="class">Class Selector</p>
+      <p class="class">Class Selector</p>
+    </div>
+
+    <hr>
+
+    <div>
+      <p id="id">Id Selector</p>
+    </div>
+
+    <hr>
+
+    <div>
+      <h1>Multiple Selector</h1>
+      <h2>Multiple Selector</h2>
+      <h3>Multiple Selector</h3>
+    </div>
+
+    <hr>
+
+    <div class="parent">
+      <p class="child">Child Selector</p>
+      <p class="child">Child Selector</p>
+      <p class="child">Child Selector</p>
+    </div>
+
+    <hr>
+
+    <input type="text" placeholder="Attribute Selector">
+  </body>
+</html>

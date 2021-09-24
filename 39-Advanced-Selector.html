@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Advanced Selector</title>
+  <style >
+    body { background: #16161d; color: white }
+
+    /* Universal Selector */
+    * {
+      border: 3px solid gray
+    }
+
+    /* Adjacent Sibling */
+    div a {
+      background: lightyellow;
+    }
+
+    /* Direct Child */
+    div > a {
+      background: lightgreen;
+    }
+
+    /* Just Sibling */
+    div + p {
+      background: #9966FF;
+    }
+
+    /* Normal Sibling */
+    div ~ a {
+      color: crimson;
+    }
+
+    /* Add Selector */
+    li, p {
+      color: #FF66FF;
+    }
+
+    /* Attribute Selector */
+    a[href="https://www.google.com"] {
+      color: lightcoral;
+    }
+  </style>
+</head>
+<body
+  <div class="">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta doloremque magni molestiae, ullam sed earum incidunt consequuntur eaque labore id ipsam fugiat numquam deleniti autem veniam dignissimos assumenda animi amet architecto eligendi, eius saepe. Ducimus autem aliquam tempore repellendus perferendis voluptatibus odit hic, dolor iure vel totam qui culpa illo maiores fugit vitae praesentium. Dolor ad modi qui nobis beatae, asperiores sint quisquam earum iusto pariatur placeat, blanditiis enim. Alias explicabo dolorem id repudiandae facere aut similique, laboriosam, distinctio! Rerum tempore aut, dolores eius fuga vel atque iure, nulla totam autem a natus tempora fugit doloremque, dolore facere labore consectetur voluptatem aliquam eum sint sunt voluptatibus. Quia quam expedita velit, veniam minus voluptatum ipsa pariatur tempore magni esse inventore provident ad unde quasi delectus quos voluptate, cum fugiat. Non inventore vero soluta repellendus molestias aspernatur eius qui culpa quod, saepe, unde tempora vitae itaque sunt animi. Aliquam suscipit, aut exercitationem nostrum illum commodi officiis! Quam esse aliquid saepe officiis repellendus repudiandae laboriosam modi nostrum atque animi ullam quae ipsa, vero molestiae sint pariatur similique nihil, eius non. Laudantium iusto voluptate labore molestiae eius odit dicta officiis voluptas beatae quisquam qui, quod perferendis, dignissimos rerum exercitationem autem animi reprehenderit blanditiis tempora.</p>
+
+    <ul>
+      <li>Item 1</li>
+      <li id="id-item">Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li class="class-item">Item 5 <a href="#">GOOGLE</a></li>
+      <li class="class-item">Item 6</li>
+      <li>Item 7</li>
+      <li>Item 8</li>
+    </ul>
+
+    <a href="#">Yahoo</a>
+  </div>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat at aliquam inventore modi cum ab qui provident id eaque, quisquam corrupti explicabo sint magnam necessitatibus maxime! Molestiae cupiditate blanditiis aperiam libero culpa nobis, rerum, assumenda officia nulla odit, at. Voluptate optio velit soluta est, aut illo, eligendi ipsam non labore impedit deserunt vel laudantium iste voluptates quam odio similique perferendis. Accusantium ducimus suscipit libero praesentium, ratione tempore, aut quibusdam doloribus. In nesciunt earum totam pariatur sit temporibus enim numquam fugit amet, ut perspiciatis ipsum, eveniet ab, nobis cupiditate doloremque laborum natus neque magni, asperiores id. Inventore corporis nobis, alias voluptatum.</p>
+
+  <a href="#">Outside Link</a>
+</body>
+</html>

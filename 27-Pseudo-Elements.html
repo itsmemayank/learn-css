@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Pseudo Elements</title>
+</head>
+<style>
+    p::first-letter {
+        color: lightcoral;
+        font-size: 3rem;
+    }
+
+    h1::before{
+        content: "Before Heading, ";
+    }
+
+    h1::after {
+        content: "After Heading";
+    }
+
+    p::selection {
+        color: crimson;
+    }
+</style>
+<body>
+    <h1></h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi labore accusamus dolorem molestias esse dicta error quaerat alias at ex. Doloribus dicta quaerat quas deleniti, itaque quia sed fugiat, suscipit aliquam reiciendis necessitatibus corporis voluptate commodi magnam vero voluptatibus, sunt assumenda animi aliquid quidem? Distinctio laboriosam facere maxime molestiae eveniet, vel quis incidunt, reiciendis rem natus, nesciunt fugit. Dolores molestiae recusandae fuga, delectus inventore similique id totam ipsa obcaecati! Nisi debitis eaque ab placeat iure laboriosam alias dignissimos perferendis explicabo ullam facilis, natus ratione eos, nesciunt voluptates cupiditate laudantium, repellat tenetur consequatur minus quaerat. Non molestias id fugiat in eveniet?</p>
+</body>
+</html>

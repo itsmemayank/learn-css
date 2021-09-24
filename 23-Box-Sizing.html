@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Sizing</title>
+    <style>
+        .div1 {
+            background: lightcoral;
+            height: 200px;
+            text-align: center;
+            width: 800px;
+        }
+        .div2 {
+            background: lightgreen;
+            border: 10px solid lightslategray;
+            box-sizing: border-box;
+            height: 200px;
+            padding: 25px 50px;
+            text-align: center;
+            width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">Without Box Sizing</div>
+    <hr>
+    <div class="div2">With Box Sizing</div>
+</body>
+</html>
